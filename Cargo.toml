@@ -1,0 +1,11 @@
+[package]
+name = "sigmaos-i18n"
+version = "0.1.0"
+edition = "2021"
+authors = ["SigmaOS Contributors"]
+description = "SigmaOS i18n component"
+license = "MIT OR Apache-2.0"
+
+[lib]
+name = "sigmaos_i18n"
+path = "src/lib.rs"
