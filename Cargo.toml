@@ -1,11 +1,14 @@
 [package]
-name = "sigmaos-i18n"
+name = "i18n"
 version = "0.1.0"
 edition = "2021"
-authors = ["SigmaOS Contributors"]
-description = "SigmaOS i18n component"
-license = "MIT OR Apache-2.0"
+description = "SigmaOS SigmaOS-i18n"
+license = "MIT"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-i18n"
 
-[lib]
-name = "sigmaos_i18n"
-path = "src/lib.rs"
+[dependencies]
+tokio = { version = "1.35", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+log = "0.4"
+anyhow = "1.0"
+clap = { version = "4.5", features = ["derive"] }
