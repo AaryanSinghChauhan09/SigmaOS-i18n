@@ -3,7 +3,7 @@ name = "SigmaOS-i18n"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "i18n component"
+description = "Internationalization: translations, locale data, keyboard layouts, RTL support"
 upstream = []
 
 [contract]
