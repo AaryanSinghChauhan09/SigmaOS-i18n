@@ -1,10 +1,15 @@
 [package]
-name = "sigmaos_i18n"
+name = "SigmaOS-i18n"
 version = "0.1.0"
 edition = "2021"
-license = "MIT"
-description = "SigmaOS i18n component inspired by Linux Mint / Omarchy / Arch Linux."
+license = "Apache-2.0"
+description = "SigmaOS sigmaos_i18n component"
 
 [lib]
 name = "sigmaos_i18n"
 path = "src/lib.rs"
+
+[dependencies]
+thiserror = "1"
+
+[dev-dependencies]
